@@ -1,0 +1,1201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Thoai Travel</title>
+    <link href="Content/images/LOGOicon.png" rel="icon" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+
+    <link href="plugins/owlcarousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link href="plugins/owlcarousel/assets/owl.theme.green.css" rel="stylesheet" />
+
+    <link href="plugins/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+    <link href="plugins/range-slider/bootstrap-slider.css" rel="stylesheet" />
+
+    <link href="plugins/rangeSlider/asRange.css" rel="stylesheet" />
+
+    <link href="Content/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="header-main">
+        <div class="header-wrapper">
+            <nav class="header-wrapper-content navbar navbar-expand-md navbar-light bg-light p-0 fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-main ml-3 ml-sm-3 ml-md-0 ml-lg-5" src="Content/images/LOGOOK_black.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="header-menu collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="menu-list-item navbar-nav m-auto">
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="index.html">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="hotel.html">KHÁCH SẠN</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0 item-menu-active" href="service.html">DỊCH VỤ</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="introduce.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    <form class="header-right form-inline my-2 my-lg-0 mr-md-0 mr-lg-5 d-none d-lg-flex">
+                        <ul class="header-right-wrapper">
+                            <li class="header-right-item">
+                                <div class="header-right-item-wrapper dropdown mr-auto">
+                                    <a class="icon-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <input class="input-search form-control" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn-search btn btn-outline-success my-sm-0" type="submit">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-right-item">
+                                <div class="header-right-item-wrapper dropdown mr-auto">
+                                    <a class="icon-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-cart" aria-labelledby="navbarDropdown">
+                                        <div class="content-cart">
+                                            Chưa có sản phẩm nào trong giỏ hàng
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hotel-main">
+        <div class="hotel-main-wrapper">
+            <div class="container hotel-main-container">
+                <div class="row hotel-main-list">
+                    <div class="mask-menu-left-toggle d-none">
+                    </div>
+                    <div class="btn btn-close-menu-left d-none">
+                        <i class="fa fa-times"></i>
+                    </div>
+
+                    <aside class="left-sidebar menu-left-toggle">
+                        <div class="left-sidebar-wrapper">
+                            <p class="title-left-sidebar">
+                                DANH MỤC SẢN PHẨM
+                            </p>
+                            <div class="list-all-tour">
+                                <div class="accordion" id="accordion-menu">
+                                    <!--show hiện-->
+                                    <div class="card-item">
+                                        <div class="card-header-item">
+                                            <p class="mb-0 menu-item">
+                                                <a href="#" data-toggle="collapse" data-target="#menu-account">
+                                                    Du Lịch Nước Ngoài
+                                                </a>
+                                                <a class="btn collapsed" data-toggle="collapse" data-target="#menu-account">
+                                                    <i class="fa fa-angle-up icon-dropdown"></i>
+                                                </a>
+                                            </p>
+                                        </div>
+
+                                        <div id="menu-account" class="collapse menu-general" data-parent="#menu-account">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item">
+                                                                Châu Á
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item" class="collapse menu-item-general" data-parent="#menu-item">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Nhật Bản
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="AccountList.html">
+                                                                        Hàn Quốc
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account" class="collapse menu-general" data-parent="#menu-account">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item1">
+                                                                <!--data-target="#menu-home"-->
+                                                                Châu Âu
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item1">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item1" class="collapse menu-item-general" data-parent="#menu-item1">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Anh
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Nga
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account" class="collapse menu-general" data-parent="#menu-account">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item2">
+                                                                <!--data-target="#menu-home"-->
+                                                                Châu Mỹ
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item2">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item2" class="collapse menu-item-general" data-parent="#menu-item2">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Canada
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Mỹ
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="accordion-menu">
+                                    <!--show hiện-->
+                                    <div class="card-item">
+                                        <div class="card-header-item">
+                                            <p class="mb-0 menu-item">
+                                                <a href="#" data-toggle="collapse" data-target="#menu-account1">
+                                                    Du Lịch Trong Nước
+                                                </a>
+                                                <a class="btn collapsed" data-toggle="collapse" data-target="#menu-account1">
+                                                    <i class="fa fa-angle-up icon-dropdown"></i>
+                                                </a>
+                                            </p>
+                                        </div>
+
+                                        <div id="menu-account1" class="collapse menu-general" data-parent="#menu-account1">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item3">
+                                                                Miền Bắc
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item3">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item3" class="collapse menu-item-general" data-parent="#menu-item3">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Hà Nội
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="AccountList.html">
+                                                                        Sapa
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="AccountList.html">
+                                                                        Hạ Long
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account1" class="collapse menu-general" data-parent="#menu-account1">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item4">
+                                                                <!--data-target="#menu-home"-->
+                                                                Miền Trung
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item4">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item4" class="collapse menu-item-general" data-parent="#menu-item4">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Đà Nẵng
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Phú Yên
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account1" class="collapse menu-general" data-parent="#menu-account1">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item5">
+                                                                <!--data-target="#menu-home"-->
+                                                                Miền Nam
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item5">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item5" class="collapse menu-item-general" data-parent="#menu-item5">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Côn Đảo
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Phú Quốc
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="accordion-menu">
+                                    <!--show hiện-->
+                                    <div class="">
+                                        <div class="card-header-item">
+                                            <p class="mb-0">
+                                                <a href="#" data-toggle="collapse" data-target="">
+                                                    Khách Sạn
+                                                </a>
+                                                <a class="btn collapsed" data-toggle="collapse" data-target="">
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="title-left-sidebar">
+                                LỌC THEO GIÁ
+                            </p>
+                            <div class="slider-range-wrapper pt-3">
+                                <div class="range-example-1"></div>
+                            </div>
+                            <div class="filter-price pt-3">
+                                <div class="btn btn-success filter-btn">
+                                    Lọc
+                                </div>
+                                <div class="price-wrapper">
+                                    <p>
+                                        Giá:
+                                        <div>
+                                            <span>
+                                                <b>
+                                                    0 <u> đ</u>
+                                                </b>
+                                            </span>
+                                        </div>
+                                        <div><b>-</b></div>
+                                        <div>
+                                            <span>
+                                                <b>
+                                                    5,000,000 <u> đ</u>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="title-left-sidebar">
+                                SẢN PHẨM
+                            </p>
+                            <div class="product-left">
+                                <ul class="product-left-wrapper">
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/16298-suoi-tranh2-600x400.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Thám hiểm thác sâu
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>6,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/Hon-Mong-Tay-Phu-Quoc6-600x400.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Lặng ngắm san hô
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>5,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/Boat-600x400.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Du thuyền trên biển
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>4,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/khoa-hoc-doc-dao-tai-anh.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Lướt sóng mạo hiểm
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>3,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/duaoverlay.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Thưởng Thức Dừa
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>3,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/du-lich-nghi-duong-phu-quoc-2-ngay-1-dem-mot-thoang-dao-ngoc-4.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Tour Nghỉ Dưỡng
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>3,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <aside class="col-3 d-none d-lg-block left-sidebar">
+                        <div class="left-sidebar-wrapper">
+                            <p class="title-left-sidebar">
+                                DANH MỤC SẢN PHẨM
+                            </p>
+                            <div class="list-all-tour">
+                                <div class="accordion" id="accordion-menu">
+                                    <!--show hiện-->
+                                    <div class="card-item">
+                                        <div class="card-header-item">
+                                            <p class="mb-0 menu-item">
+                                                <a href="#" data-toggle="collapse" data-target="#menu-account">
+                                                    Du Lịch Nước Ngoài
+                                                </a>
+                                                <a class="btn collapsed" data-toggle="collapse" data-target="#menu-account">
+                                                    <i class="fa fa-angle-up icon-dropdown"></i>
+                                                </a>
+                                            </p>
+                                        </div>
+
+                                        <div id="menu-account" class="collapse menu-general" data-parent="#menu-account">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item">
+                                                                Châu Á
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item" class="collapse menu-item-general" data-parent="#menu-item">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Nhật Bản
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="AccountList.html">
+                                                                        Hàn Quốc
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account" class="collapse menu-general" data-parent="#menu-account">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item1">
+                                                                <!--data-target="#menu-home"-->
+                                                                Châu Âu
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item1">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item1" class="collapse menu-item-general" data-parent="#menu-item1">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Anh
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Nga
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account" class="collapse menu-general" data-parent="#menu-account">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item2">
+                                                                <!--data-target="#menu-home"-->
+                                                                Châu Mỹ
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item2">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item2" class="collapse menu-item-general" data-parent="#menu-item2">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Canada
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Mỹ
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="accordion-menu">
+                                    <!--show hiện-->
+                                    <div class="card-item">
+                                        <div class="card-header-item">
+                                            <p class="mb-0 menu-item">
+                                                <a href="#" data-toggle="collapse" data-target="#menu-account1">
+                                                    Du Lịch Trong Nước
+                                                </a>
+                                                <a class="btn collapsed" data-toggle="collapse" data-target="#menu-account1">
+                                                    <i class="fa fa-angle-up icon-dropdown"></i>
+                                                </a>
+                                            </p>
+                                        </div>
+
+                                        <div id="menu-account1" class="collapse menu-general" data-parent="#menu-account1">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item3">
+                                                                Miền Bắc
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item3">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item3" class="collapse menu-item-general" data-parent="#menu-item3">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Hà Nội
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="AccountList.html">
+                                                                        Sapa
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="AccountList.html">
+                                                                        Hạ Long
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account1" class="collapse menu-general" data-parent="#menu-account1">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item4">
+                                                                <!--data-target="#menu-home"-->
+                                                                Miền Trung
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item4">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item4" class="collapse menu-item-general" data-parent="#menu-item4">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Đà Nẵng
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Phú Yên
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="menu-account1" class="collapse menu-general" data-parent="#menu-account1">
+                                            <!--id="menu-home"-->
+                                            <div class="card-body-item">
+                                                <div class="card-item">
+                                                    <div class="card-header-item">
+                                                        <p class="mb-0 menu-item">
+                                                            <a href="#" data-toggle="collapse" data-target="#menu-item5">
+                                                                <!--data-target="#menu-home"-->
+                                                                Miền Nam
+                                                            </a>
+                                                            <a class="btn collapsed" data-toggle="collapse" data-target="#menu-item5">
+                                                                <i class="fa fa-angle-up icon-dropdown"></i>
+                                                            </a>
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="menu-item5" class="collapse menu-item-general" data-parent="#menu-item5">
+                                                        <!--id="menu-home"-->
+                                                        <div class="card-body-item">
+                                                            <ul class="sub-item">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Côn Đảo
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        Phú Quốc
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion" id="accordion-menu">
+                                    <!--show hiện-->
+                                    <div class="">
+                                        <div class="card-header-item">
+                                            <p class="mb-0">
+                                                <a href="#" data-toggle="collapse" data-target="">
+                                                    Khách Sạn
+                                                </a>
+                                                <a class="btn collapsed" data-toggle="collapse" data-target="">
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="title-left-sidebar">
+                                LỌC THEO GIÁ
+                            </p>
+                            <div class="slider-range-wrapper pt-3">
+                                <div class="range-example-1"></div>
+                            </div>
+                            <div class="filter-price pt-3">
+                                <div class="btn btn-success filter-btn">
+                                    Lọc
+                                </div>
+                                <div class="price-wrapper">
+                                    <p>
+                                        Giá:
+                                        <div>
+                                            <span>
+                                                <b>
+                                                    0 <u> đ</u>
+                                                </b>
+                                            </span>
+                                        </div>
+                                        <div><b>-</b></div>
+                                        <div>
+                                            <span>
+                                                <b>
+                                                    5,000,000 <u> đ</u>
+                                                </b>
+                                            </span>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="title-left-sidebar">
+                                SẢN PHẨM
+                            </p>
+                            <div class="product-left">
+
+                                <ul class="product-left-wrapper">
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/16298-suoi-tranh2-600x400.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Thám hiểm thác sâu
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>6,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/Hon-Mong-Tay-Phu-Quoc6-600x400.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Lặng ngắm san hô
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>5,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/Boat-600x400.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Du thuyền trên biển
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>4,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/khoa-hoc-doc-dao-tai-anh.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Lướt sóng mạo hiểm
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>3,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/duaoverlay.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Thưởng Thức Dừa
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>3,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="product-left-list">
+                                        <a class="product-left-item" href="#">
+                                            <div class="img-product">
+                                                <img src="Content/images/service/du-lich-nghi-duong-phu-quoc-2-ngay-1-dem-mot-thoang-dao-ngoc-4.jpg" />
+                                            </div>
+                                            <div class="box-text-product">
+                                                <p class="title-product">
+                                                    Tour Nghỉ Dưỡng
+                                                </p>
+                                                <p class="price-product">
+                                                    <b>3,500,000 <u> đ</u></b>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <section class="col-12 col-lg-9 content-hotel">
+                        <div class="row content-hotel-top">
+                            <div class="col content-hotel-top-wrapper">
+                                <div class="container-top-hotel">
+                                    <nav aria-label="breadcrumb" class="breadcrumb-hotel">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="index.html">Trang Chủ</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">Khách Sạn</li>
+                                        </ol>
+                                    </nav>
+                                    <a href="#" style="color: #0086cd" class="filter-btn d-inline d-lg-none filter-btn-toggle">
+                                        <i class="fa fa-filter">
+                                            Lọc
+                                        </i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row content-hotel-main">
+                            <div class="col-6 col-lg-4 mb-4 content-hotel-main-wrapper">
+                                <a href="#" class="card h-100 content-hotel-main-item">
+                                    <img src="Content/images/service/16298-suoi-tranh2-600x400.jpg" class="card-img-top" />
+                                    <div class="card-body box-text-hotel-item">
+                                        <p class="title-hotel-small">DỊCH VỤ</p>
+                                        <p class="card-title-hotel">Thám Hiểm Thác Sâu</p>
+                                        <p class="price-hotel"><b>2,999,000 <u> đ</u></b></p>
+                                        <p class="card-text-excerpts">
+                                            “Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Biển Hawaii buông lơi <span class="d-none d-sm-block"> uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa </span>[...]
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-4 mb-4 content-hotel-main-wrapper">
+                                <a href="#" class="card h-100 content-hotel-main-item">
+                                    <img src="Content/images/service/Boat-600x400.jpg" class="card-img-top" />
+                                    <div class="card-body box-text-hotel-item">
+                                        <p class="title-hotel-small">DỊCH VỤ</p>
+                                        <p class="card-title-hotel">Du Thuyền Trên Biển</p>
+                                        <p class="price-hotel"><b>3,999,000 <u> đ</u></b></p>
+                                        <p class="card-text-excerpts">
+                                            “Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Biển Hawaii buông lơi <span class="d-none d-sm-block"> uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa </span>[...]
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-4 mb-4 content-hotel-main-wrapper">
+                                <a href="#" class="card h-100 content-hotel-main-item">
+                                    <img src="Content/images/service/du-lich-nghi-duong-phu-quoc-2-ngay-1-dem-mot-thoang-dao-ngoc-4.jpg" class="card-img-top" />
+                                    <div class="card-body box-text-hotel-item">
+                                        <p class="title-hotel-small">DỊCH VỤ</p>
+                                        <p class="card-title-hotel">Tour Nghỉ Dưỡng</p>
+                                        <p class="price-hotel"><b>4,999,000 <u> đ</u></b></p>
+                                        <p class="card-text-excerpts">
+                                            “Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Biển Hawaii buông lơi <span class="d-none d-sm-block"> uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa </span>[...]
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-4 mb-4 content-hotel-main-wrapper">
+                                <a href="#" class="card h-100 content-hotel-main-item">
+                                    <img src="Content/images/duaoverlay.jpg" class="card-img-top" />
+                                    <div class="card-body box-text-hotel-item">
+                                        <p class="title-hotel-small">DỊCH VỤ</p>
+                                        <p class="card-title-hotel">Thưởng Thức Dừa</p>
+                                        <p class="price-hotel"><b>4,999,000 <u> đ</u></b></p>
+                                        <p class="card-text-excerpts">
+                                            “Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Biển Hawaii buông lơi <span class="d-none d-sm-block"> uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa </span>[...]
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-4 mb-4 content-hotel-main-wrapper">
+                                <a href="#" class="card h-100 content-hotel-main-item">
+                                    <img src="Content/images/service/Hon-Mong-Tay-Phu-Quoc6-600x400.jpg" class="card-img-top" />
+                                    <div class="card-body box-text-hotel-item">
+                                        <p class="title-hotel-small">DỊCH VỤ</p>
+                                        <p class="card-title-hotel">Lặn Ngắm San Hô</p>
+                                        <p class="price-hotel"><b>2,500,000 <u> đ</u></b></p>
+                                        <p class="card-text-excerpts">
+                                            “Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Biển Hawaii buông lơi <span class="d-none d-sm-block"> uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa </span>[...]
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-6 col-lg-4 mb-4 content-hotel-main-wrapper">
+                                <a href="#" class="card h-100 content-hotel-main-item">
+                                    <img src="Content/images/service/khoa-hoc-doc-dao-tai-anh.jpg" class="card-img-top" />
+                                    <div class="card-body box-text-hotel-item">
+                                        <p class="title-hotel-small">DỊCH VỤ</p>
+                                        <p class="card-title-hotel">Lướt Sóng Biển</p>
+                                        <p class="price-hotel"><b>8,999,000 <u> đ</u></b></p>
+                                        <p class="card-text-excerpts">
+                                            “Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Biển Hawaii buông lơi <span class="d-none d-sm-block"> uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa </span>[...]
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-main" class="">
+        <div class="footer-main-wrapper">
+            <div class="footer-content pb-0 pb-md-5">
+                <div class="container footer-content-container">
+                    <div class="row footer-content-list">
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="logo-footer">
+                                <img src="Content/images/LOGOOK.png" />
+                            </div>
+                            <ul class="list-info-footer info-footer">
+                                <li>
+                                    Mã số thuế: 031422xxx
+                                </li>
+                                <li>
+                                    Ngày cấp giấy phép: 01/01/2019
+                                </li>
+                                <li>
+                                    Ngày hoạt động: 01/01/2019
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="title-footer">
+                                <h4>Liên Hệ</h4>
+                            </div>
+                            <ul class="list-info-footer contact-foooter">
+                                <li>
+                                    <i class="fa fa-location-arrow"></i>
+                                    <a href="#">
+                                        123 Mỏ Cày Nam, Bến Tre
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="#">
+                                        096 123 7654
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="#">
+                                        tranphucthoaiit@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <ul class="sub-icon">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="FaceBook">
+                                                <i class="fa fa-facebook"> </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram">
+                                                <i class="fa fa-instagram"> </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                                <i class="fa fa-twitter"> </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest">
+                                                <i class="fa fa-pinterest"> </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="title-footer">
+                                <h4>Tin Tức</h4>
+                            </div>
+                            <ul class="list-info-footer news-footer">
+                                <li>
+                                    <a href="#">
+                                        Bản tin du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Cẩm nang du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Tư vấn du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Tuyển dụng du lịch</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="title-footer">
+                                <h4>Tour Phổ Biến</h4>
+                            </div>
+                            <ul class="list-info-footer tour-footer">
+                                <li>
+                                    <ul class="sub-tour">
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/lanbien-overlay.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/2-3-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/3-3-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="sub-tour">
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/1-3-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/8-1-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/duthuyen-overlay.jpg" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="footer-copyright-wrapper">
+                    <div class="dropdown-divider"></div>
+
+                    <p>
+                        © All rights reserved. Thiết kế website THOAI
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="back-top-wrapper">
+        <a class="back-top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </section>
+
+    <section class="script">
+        <script src="Scripts/popper.js"></script>
+        <script src="Scripts/jquery-3.0.0.js"></script>
+        <script src="Scripts/bootstrap.js"></script>
+
+        <script src="plugins/owlcarousel/owl.carousel.js"></script>
+
+        <script src="plugins/fancybox/jquery.fancybox.js"></script>
+
+        <script src="plugins/counter/jquery.waypoints.js"></script>
+        <script src="plugins/counter/jquery.counterup.js"></script>
+
+        <script src="plugins/range-slider/bootstrap-slider.js"></script>
+
+        <script src="plugins/rangeSlider/jquery-asRange.js"></script>
+
+        <script src="Scripts/script.js"></script>
+    </section>
+
+</body>
+</html>

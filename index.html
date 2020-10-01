@@ -1,0 +1,766 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Thoai Travel</title>
+    <link href="Content/images/LOGOicon.png" rel="icon" />
+    <link href="Content/images/LOGOicon.png" rel="icon" />
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+
+    <link href="plugins/owlcarousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link href="plugins/owlcarousel/assets/owl.theme.green.css" rel="stylesheet" />
+
+    <link href="plugins/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+    <link href="plugins/Animate/animate.css" rel="stylesheet" />
+
+    <link href="Content/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="header-main">
+        <div class="header-wrapper">
+            <nav class="header-wrapper-content navbar navbar-expand-md navbar-light bg-light p-0 fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-main ml-3 ml-sm-3 ml-md-0 ml-lg-5" src="Content/images/LOGOOK_black.png" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="header-menu collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="menu-list-item navbar-nav m-auto">
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0 item-menu-active" href="index.html">TRANG CHỦ<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="hotel.html">KHÁCH SẠN</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="service.html">DỊCH VỤ</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="introduce.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item item-menu">
+                            <a class="nav-link ml-4 ml-md-0" href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    <form class="header-right form-inline my-2 my-lg-0 mr-md-0 mr-lg-5 d-none d-lg-flex">
+                        <ul class="header-right-wrapper">
+                            <li class="header-right-item">
+                                <div class="header-right-item-wrapper dropdown mr-auto">
+                                    <a class="icon-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <input class="input-search form-control" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn-search btn btn-outline-success my-sm-0" type="submit">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-right-item">
+                                <div class="header-right-item-wrapper dropdown mr-auto">
+                                    <a class="icon-item nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-cart" aria-labelledby="navbarDropdown">
+                                        <div class="content-cart">
+                                            Chưa có sản phẩm nào trong giỏ hàng
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav id="main-carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="img-carousel img-carousel-first">
+                <div class="title-main-cousel fadeInRight animated">
+                    <p>
+                        Hoà Mình Vào Thiên Nhiên
+                    </p>
+                    <p>Đảo HAWAIL</p>
+                    <p>
+                        Giảm 30% cho khách hàng đăng kí trong 7/2019
+                    </p>
+                </div>
+            </div>
+            <div class="img-carousel img-carousel-second">
+                <div class="title-main-cousel  fadeInRight animated">
+                    <p>
+                        Hoà Mình Vào Thiên Nhiên
+                    </p>
+                    <p>Đảo HAWAIL</p>
+                    <p>
+                        Giảm 30% cho khách hàng đăng kí trong 7/2019
+                    </p>
+                </div>
+            </div>
+            <div class="img-carousel img-carousel-third">
+                <div class="title-main-cousel  fadeInRight animated">
+                    <p>
+                        Hoà Mình Vào Thiên Nhiên
+                    </p>
+                    <p>Đảo HAWAIL</p>
+                    <p>
+                        Giảm 30% cho khách hàng đăng kí trong 7/2019
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="form-search-hotel">
+        <div class="search-hotel-wrapper">
+            <div class="search-hotel-list">
+                <div class="dropdown search-hotel-item pr-1 pr-sm-2">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                        Danh Mục
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">Hawaii</span>
+                        </div>
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">Hawaii</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown search-hotel-item pr-1 pr-sm-2">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                        Giá Cả
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 300px">
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">0 Triệu Đến 5 Triệu</span>
+                        </div>
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">5 Triệu Đến 10 Triệu</span>
+                        </div>
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">10 Triệu Đến 20 triệu</span>
+                        </div>
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">20 Triệu Đến 50 triệu</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown search-hotel-item pr-1 pr-sm-2">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                        Loại Giường
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">Giường Đôi</span>
+                        </div>
+                        <div class="dropdown-item" href="#">
+                            <input class="checkbox-item" type="checkbox" name="name" value="" />
+                            <span class="title-checkbox">Giường Đơn</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn btn-success btn-search-main">Tìm Kiếm</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main-active" class="title-wrapper">
+        <div class="container main-active-wrapper">
+            <div class="row">
+                <div class="col">
+                    <div class="title-main">
+                        <h3>
+                            Trải nghiệm trên đảo Hawaii
+                        </h3>
+                        <img src="Content/images/icon/gachok.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-0 pb-0 pb-lg-4 main-active-list">
+                <div class="col-6 col-md-3 item-active">
+                    <img class="item-active-img" src="Content/images/the-grenadines-2.jpg" />
+                    <span class="item-active-txt">Tắm nắng bãi biển</span>
+                </div>
+                <div class="col-6 col-md-3 item-active">
+                    <img class="item-active-img" src="Content/images/barbados-2.jpg" />
+                    <span class="item-active-txt">Lướt sóng</span>
+                </div>
+                <div class="col-6 col-md-3 item-active">
+                    <img class="item-active-img" src="Content/images/virgin-islands1-2.jpg" />
+                    <span class="item-active-txt">Tắm nắng bãi biển</span>
+                </div>
+                <div class="col-6 col-md-3 item-active">
+                    <img class="item-active-img" src="Content/images/havana-2.jpg" />
+                    <span class="item-active-txt">Lâu đài cát</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main-tour">
+        <div class="main-tour-overlay">
+            <div class="main-tour-wrapper">
+                <div class="title-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="title-main">
+                                    <h3 style="color:#fff">
+                                        Tour tham quan trọn gói
+                                    </h3>
+                                    <img src="Content/images/icon/gachok.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="tour-carousel pt-0 pl-0 pl-lg-3 pr-0 pr-lg-3">
+                <div class="tour-carousel-wrapper">
+                    <div class="owl-carousel owl-theme tour-carousel-list pl-0 pl-lg-5 pr-0 pr-lg-5 card-group tour-carousel-list-item">
+                        <div class="card item-tour">
+                            <img src="Content/images/2-3-580x378.jpg" class="card-img-top item-tour-img img-fluid" alt="...">
+                            <img src="Content/images/duaoverlay.jpg" class="card-img-top item-tour-img-hide img-fluid" alt="...">
+                            <div class="card-body item-tour-boxtext">
+                                <p class="card-title-tour-small">Haiwaii</p>
+                                <h5 class="card-title card-title-tour-big">Thưởng thức dừa</h5>
+                                <p class="price-tour">1,500,000 <ins>đ</ins></p>
+                                <p class="card-text tour-excerpt mb-3 mb-md-5">
+                                    "Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Bờ biển Hawaii buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa"
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card item-tour">
+                            <img src="Content/images/3-3-580x378.jpg" class="card-img-top item-tour-img img-fluid" alt="...">
+                            <img src="Content/images/lanbien-overlay.jpg" class="card-img-top item-tour-img-hide img-fluid" alt="...">
+                            <div class="card-body item-tour-boxtext">
+                                <p class="card-title-tour-small">Haiwaii</p>
+                                <h5 class="card-title card-title-tour-big">Tour nghỉ dưỡng</h5>
+                                <p class="price-tour">1,500,000 <ins>đ</ins></p>
+                                <p class="card-text tour-excerpt mb-3 mb-md-5">
+                                    "Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Bờ biển Hawaii buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card item-tour">
+                            <img src="Content/images/8-1-580x378.jpg" class="card-img-top item-tour-img img-fluid" alt="...">
+                            <img src="Content/images/duthuyen-overlay.jpg" class="card-img-top item-tour-img-hide img-fluid" alt="...">
+                            <div class="card-body item-tour-boxtext">
+                                <p class="card-title-tour-small">Haiwaii</p>
+                                <h5 class="card-title card-title-tour-big">Lặn biển Hawaii</h5>
+                                <p class="price-tour">1,500,000 <ins>đ</ins></p>
+                                <p class="card-text tour-excerpt mb-3 mb-md-5">
+                                    "Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Bờ biển Hawaii buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card item-tour">
+                            <img src="Content/images/2-3-580x378.jpg" class="card-img-top item-tour-img img-fluid" alt="...">
+                            <img src="Content/images/duaoverlay.jpg" class="card-img-top item-tour-img-hide img-fluid" alt="...">
+                            <div class="card-body item-tour-boxtext">
+                                <p class="card-title-tour-small">Haiwaii</p>
+                                <h5 class="card-title card-title-tour-big">Thưởng thức dừa</h5>
+                                <p class="price-tour">1,500,000 <ins>đ</ins></p>
+                                <p class="card-text tour-excerpt mb-3 mb-md-5">
+                                    "Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Bờ biển Hawaii buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa"
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card item-tour">
+                            <img src="Content/images/3-3-580x378.jpg" class="card-img-top item-tour-img img-fluid" alt="...">
+                            <img src="Content/images/lanbien-overlay.jpg" class="card-img-top item-tour-img-hide img-fluid" alt="...">
+                            <div class="card-body item-tour-boxtext">
+                                <p class="card-title-tour-small">Haiwaii</p>
+                                <h5 class="card-title card-title-tour-big">Tour nghỉ dưỡng</h5>
+                                <p class="price-tour">1,500,000 <ins>đ</ins></p>
+                                <p class="card-text tour-excerpt mb-3 mb-md-5">
+                                    "Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Bờ biển Hawaii buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card item-tour">
+                            <img src="Content/images/8-1-580x378.jpg" class="card-img-top item-tour-img img-fluid" alt="...">
+                            <img src="Content/images/duthuyen-overlay.jpg" class="card-img-top item-tour-img-hide img-fluid" alt="...">
+                            <div class="card-body item-tour-boxtext">
+                                <p class="card-title-tour-small">Haiwaii</p>
+                                <h5 class="card-title card-title-tour-big">Lặn biển Hawaii</h5>
+                                <p class="price-tour">1,500,000 <ins>đ</ins></p>
+                                <p class="card-text tour-excerpt mb-3 mb-md-5">
+                                    "Thiên đường tình yêu” là mỹ từ xưng tụng Hawaii quả không sai. Bờ biển Hawaii buông lơi, uốn cong theo từng cơn sóng vỗ được điểm tô bởi những hàng cọ, hàng dừa
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="main-photos-collection">
+        <div class="photos-collection-wrapper">
+            <div class="title-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="title-main">
+                                <h3>
+                                    Thư viện ảnh Hawaii
+                                </h3>
+                                <img src="Content/images/icon/gachok.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container list-photos-container">
+                <div class="row list-photos">
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/16-580x378.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Thủy Cung">
+                            <img src="Content/images/photos-collection/16-580x378.jpg" />
+                        </a>
+                        <p>Thủy Cung</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/7-1-580x378.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Lâu Đài">
+                            <img src="Content/images/photos-collection/7-1-580x378.jpg" />
+                        </a>
+                        <p>Lâu Đài</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/beautifuk-scenery.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Cảnh Đẹp">
+                            <img src="Content/images/photos-collection/beautifuk-scenery.jpg" />
+                        </a>
+                        <p>Cảnh Đẹp</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/diving.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Lặn Biển">
+                            <img src="Content/images/photos-collection/diving.jpg" />
+                        </a>
+                        <p>Lặn Biển</p>
+                    </div>
+                </div>
+                <div class="row list-photos">
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/family-fun.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Vui Chơi">
+                            <img src="Content/images/photos-collection/family-fun.jpg" />
+                        </a>
+                        <p>Vui Chơi</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/outdoor-adventure.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Tắm Thác">
+                            <img src="Content/images/photos-collection/outdoor-adventure.jpg" />
+                        </a>
+                        <p>Tắm Thác</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/romantic-getaway.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Ngắm Cảnh">
+                            <img src="Content/images/photos-collection/romantic-getaway.jpg" />
+                        </a>
+                        <p>Ngắm Cảnh</p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 photos-item">
+                        <a href="Content/images/photos-collection/white-sands.jpg" class="wrapper-img" data-fancybox="gallery" data-caption="Cát Trắng">
+                            <img src="Content/images/photos-collection/white-sands.jpg" />
+                        </a>
+                        <p>Cát Trắng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="criteria-results">
+        <div class="criteria-results-wrapper">
+            <div class="title-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="title-main">
+                                <h3>
+                                    LÝ DO CHỌN THOAI TRAVEL
+                                </h3>
+                                <img src="Content/images/icon/gachok.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="criteria">
+                <div class="container criteria-container">
+                    <div class="row criteria-list">
+                        <div class="col-12 col-md-4 item-criteria">
+                            <img src="Content/images/criteria-results/hotel.png" />
+                            <h5>
+                                Khách sạn tốt nhất
+                            </h5>
+                            <p>
+                                Để mọi người mọi nhà đều có thể đi du lịch với giá cả hợp lý nhất.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-4 item-criteria">
+                            <img src="Content/images/criteria-results/customer-service.png" />
+                            <h5>Hỗ trợ 24/7</h5>
+                            <p>
+                                Để mọi người mọi nhà đều có thể đi du lịch với giá cả hợp lý nhất.
+                            </p>
+                        </div>
+                        <div class="col-12 col-md-4 item-criteria">
+                            <img src="Content/images/criteria-results/best-price.png" />
+                            <h5>
+                                Giá luôn tốt nhất
+                            </h5>
+                            <p>
+                                Để mọi người mọi nhà đều có thể đi du lịch với giá cả hợp lý nhất.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="results">
+                <div class="results-overlay">
+                    <div class="title-wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="title-main">
+                                        <h3 style="color:#fff">
+                                            THÀNH QUẢ CỦA CỦA THOAI TRAVEL
+                                        </h3>
+                                        <img src="Content/images/icon/gachokwhite.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container results-container">
+                        <div class="row results-list">
+                            <div class="col-6 col-sm-3 results-item">
+                                <img class="img-results" src="Content/images/criteria-results/airplane-around-earth.png" />
+                                <div class="num-results">
+                                    <div class="num-counter">
+                                        20,000
+                                    </div>
+                                    <span class="plus">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </div>
+                                <div class="title-results">
+                                    Tour hoàn thành
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 results-item">
+                                <img class="img-results" src="Content/images/criteria-results/guest.png" />
+                                <div class="num-results">
+                                    <div class="num-counter">
+                                        60,000
+                                    </div>
+                                    <span class="plus">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </div>
+                                <div class="title-results">
+                                    Khách hàng
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 results-item">
+                                <img class="img-results" src="Content/images/criteria-results/world.png" />
+                                <div class="num-results">
+                                    <div class="num-counter">
+                                        5,000
+                                    </div>
+                                    <span class="plus">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </div>
+                                <div class="title-results">
+                                    Điểm tham quan
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 results-item">
+                                <img class="img-results" src="Content/images/criteria-results/truck.png" />
+                                <div class="num-results">
+                                    <div class="num-counter">
+                                        1,000
+                                    </div>
+                                    <span class="plus">
+                                        <i class="fa fa-plus"></i>
+                                    </span>
+                                </div>
+                                <div class="title-results">
+                                    Phương tiện
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="news-wrapper">
+            <div class="title-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="title-main">
+                                <h3>
+                                    Tin Tức Và Kinh Nghiệm Du Lịch
+                                </h3>
+                                <img src="Content/images/icon/gachok.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news-content">
+                <div class="container news-content-container">
+                    <div class="row news-list">
+                        <div class="col-12 col-md-6 col-lg-4 item-news mb-4">
+                            <div class="item-news-img">
+                                <img src="Content/images/News/12-300x300.jpg" />
+                                <div class="mask-news"></div>
+                            </div>
+                            <div class="item-news-text">
+                                <p class="title-news">10 điểm du lịch tham quan hấp dẫn nhất</p>
+                                <p class="excerpt-news">
+                                    Toạ lạc trên đảo Hòn Tre với những bãi biển trong xanh quanh năm, Vinpearl Land được biết đến như “thiên đường của miền nhiệt đới”
+                                </p>
+                                <div class="see-more btn">Xem Thêm</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 item-news">
+                            <div class="item-news-img">
+                                <img src="Content/images/News/8-300x300.jpg" />
+                                <div class="mask-news"></div>
+                            </div>
+                            <div class="item-news-text">
+                                <p class="title-news">10 điểm du lịch tham quan hấp dẫn nhất</p>
+                                <p class="excerpt-news">
+                                    Toạ lạc trên đảo Hòn Tre với những bãi biển trong xanh quanh năm, Vinpearl Land được biết đến như “thiên đường của miền nhiệt đới”
+                                </p>
+                                <div class="see-more btn">Xem Thêm</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 item-news d-none d-lg-block">
+                            <div class="item-news-img">
+                                <img src="Content/images/News/6-300x300.jpg" />
+                                <div class="mask-news"></div>
+                            </div>
+                            <div class="item-news-text">
+                                <p class="title-news">10 điểm du lịch tham quan hấp dẫn nhất</p>
+                                <p class="excerpt-news">
+                                    Toạ lạc trên đảo Hòn Tre với những bãi biển trong xanh quanh năm, Vinpearl Land được biết đến như “thiên đường của miền nhiệt đới”
+                                </p>
+                                <div class="see-more btn">Xem Thêm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer-main">
+        <div class="footer-main-wrapper">
+            <div class="footer-content pb-0 pb-md-5">
+                <div class="container footer-content-container">
+                    <div class="row footer-content-list">
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="logo-footer">
+                                <img src="Content/images/LOGOOK.png" />
+                            </div>
+                            <ul class="list-info-footer info-footer">
+                                <li>
+                                    Mã số thuế: 031422xxx
+                                </li>
+                                <li>
+                                    Ngày cấp giấy phép: 01/01/2019
+                                </li>
+                                <li>
+                                    Ngày hoạt động: 01/01/2019
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="title-footer">
+                                <h4>Liên Hệ</h4>
+                            </div>
+                            <ul class="list-info-footer contact-foooter">
+                                <li>
+                                    <i class="fa fa-location-arrow"></i>
+                                    <a href="#">
+                                        123 Mỏ Cày Nam, Bến Tre
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="#">
+                                        096 123 7654
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope"></i>
+                                    <a href="#">
+                                        tranphucthoaiit@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <ul class="sub-icon">
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="FaceBook">
+                                                <i class="fa fa-facebook"> </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram">
+                                                <i class="fa fa-instagram"> </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                                <i class="fa fa-twitter"> </i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest">
+                                                <i class="fa fa-pinterest"> </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="title-footer">
+                                <h4>Tin Tức</h4>
+                            </div>
+                            <ul class="list-info-footer news-footer">
+                                <li>
+                                    <a href="#">
+                                        Bản tin du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Cẩm nang du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Tư vấn du lịch
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Tuyển dụng du lịch</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 item-footer">
+                            <div class="title-footer">
+                                <h4>Tour Phổ Biến</h4>
+                            </div>
+                            <ul class="list-info-footer tour-footer">
+                                <li>
+                                    <ul class="sub-tour">
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/lanbien-overlay.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/2-3-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/3-3-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul class="sub-tour">
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/1-3-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/8-1-580x378.jpg" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="Content/images/duthuyen-overlay.jpg" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="footer-copyright-wrapper">
+                    <div class="dropdown-divider"></div>
+
+                    <p>
+                        © All rights reserved. Thiết kế website THOAI
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="back-top-wrapper">
+        <a class="back-top">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </section>
+
+    <section class="script">
+        <script src="Scripts/popper.js"></script>
+        <script src="Scripts/jquery-3.0.0.js"></script>
+        <script src="Scripts/bootstrap.js"></script>
+
+        <script src="plugins/owlcarousel/owl.carousel.js"></script>
+
+        <script src="plugins/fancybox/jquery.fancybox.js"></script>
+
+        <script src="plugins/counter/jquery.waypoints.js"></script>
+        <script src="plugins/counter/jquery.counterup.js"></script>
+
+        <script src="Scripts/script.js"></script>
+    </section>
+    <section class="test">
+        <input id="test" type="text" name="name" value="123" />
+    </section>
+
+</body>
+</html>
